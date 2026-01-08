@@ -1,4 +1,3 @@
 console.log("Hello");
-console.log("git");
 
-console.log("124")
+console.log("git");
