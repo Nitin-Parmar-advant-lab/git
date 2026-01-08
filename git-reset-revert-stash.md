@@ -52,3 +52,10 @@ this will open window, for exiting that window write this: `:qa!`
 
 
 ## Git stash 
+if you are working in feature and another bug fix come and don't want to commit currant feature, but still need to save it   
+<br>
+Temporarily stores your uncommitted changes so you can switch branches or do other work without committing.
+
+```
+git stash
+```
