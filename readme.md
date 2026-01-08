@@ -15,11 +15,26 @@ git config user.email "my-email"
 ```
 
 ## Branch
-### make main branch default  
+make main branch default for all repositories
 ```
 git config --global init.defaultBranch <name>
 ```
-
+for making branch
+```
+git branch <branch-name>
+```
+for changing branch 
+```
+git checkout <branch-name>
+```
+for delete branch 
+```
+git branch -d <branch-name>
+```
+Remove old branch from GitHub
+```
+git push origin -d <branch-name>
+```
 ## Add and Commit
 ### first git add then commit
 
@@ -65,7 +80,18 @@ write name of the branch
 ```
 git checkout main
 ```
-if you change in file and going to branch forcefully then
+if you change in file and want to go to branch forcefully then
 ```
 git checkout -f main
 ```
+
+## Push to github
+add remote repo to git
+```
+git remote set-url origin <repo-link>
+```
+check remote repo
+```
+git remote -v
+```
+push to guthub as main branch 
