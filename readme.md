@@ -48,3 +48,24 @@ you need commit hash that you want to checkout
 ```
 git checkout <hash>
 ```
+
+
+### for checking all commit and commit id (commit history)
+```
+git log
+```
+
+### for restoring first version  
+you need commit hash that you want to checkout 
+```
+git checkout <hash>
+```
+for going back to flow (mean from where you came)
+write name of the branch 
+```
+git checkout main
+```
+if you change in file and going to branch forcefully then
+```
+git checkout -f main
+```
