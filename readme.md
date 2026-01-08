@@ -36,4 +36,15 @@ git commit -m "message"
 ### for checking which file is tracked or not
 ```
 git status
-``` 
+```
+
+### for checking all commit and commit id (commit history)
+```
+git log
+```
+
+### for restoring first version  
+you need commit hash that you want to checkout 
+```
+git checkout <hash>
+```
