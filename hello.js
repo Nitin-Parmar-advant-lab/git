@@ -8,3 +8,6 @@ console.log("git");
 // and all the formalizes 
 
 // now let me focus in this 
+
+
+console.log("bug fix");
