@@ -36,5 +36,19 @@ push code and want back previous commit(undo commit), but also does not want to 
 
 keep the commits in history 
 
-reset delete history and revert does not 
+**Difference: reset delete history and revert does not**
 
+```
+git revert <commit-hash>
+```
+After running this, resolve any conflicts the same way you would during a merge.  
+and then do `git add <file-name>`  
+and then in last 
+```
+git revert --continue
+```
+this will open window, for exiting that window write this: `:qa!`
+
+
+
+## Git stash 
