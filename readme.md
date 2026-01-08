@@ -102,10 +102,10 @@ by using -u we can direct use `git pull` and `git push` without specifying branc
 ```
 git push -u origin main
 ```
-if you change branch in git and then try to push then their will be error  
+- if you change branch in git and then try to push then their will be error  
 "fatal: The upstream branch of your current branch does not match"
 <br>
-and if we want to push to new branch then specify the branch name while pushing the code, like this:
+- and if we want to push to new branch then specify the branch name while pushing the code, <br>like this:
 ```
 git push origin master
 ```
