@@ -30,3 +30,5 @@ git branch <new-branch> <parent-branch>
 ```
 
 *Branches in Git are not parent-child linked **after creation***
+
+- this is np
