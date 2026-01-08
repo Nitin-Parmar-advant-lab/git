@@ -20,3 +20,5 @@ Remove old branch from GitHub
 ```
 git push origin -d <branch-name>
 ```
+
+in the master branch 
