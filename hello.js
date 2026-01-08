@@ -10,4 +10,3 @@ console.log("git");
 // now let me focus in this 
 
 
-console.log("bug fix");
