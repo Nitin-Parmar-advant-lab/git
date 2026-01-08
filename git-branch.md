@@ -33,4 +33,6 @@ adding extra stuff, adding extra
 
 *Branches in Git are not parent-child linked **after creation***
 
-this is dc, i am dc
+this is dc
+
+- this is np
