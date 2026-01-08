@@ -94,4 +94,18 @@ check remote repo
 ```
 git remote -v
 ```
-push to guthub as main branch 
+push to github as main branch.  
+-u is for remembering the "origin main"  
+origin is pointing to the url that we set  
+-u meaning is upstream 
+by using -u we can direct use `git pull` and `git push` without specifying branch
+```
+git push -u origin main
+```
+if you change branch in git and then try to push then their will be error  
+"fatal: The upstream branch of your current branch does not match"
+<br>
+and if we want to push to new branch then specify the branch name while pushing the code, like this:
+```
+git push origin master
+```
