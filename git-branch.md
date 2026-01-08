@@ -28,3 +28,5 @@ but if we want to create direct new branch without checkout
 ```
 git branch <new-branch> <parent-branch>
 ```
+
+adding this new to the master branch
