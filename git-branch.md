@@ -29,7 +29,7 @@ but if we want to create direct new branch without checkout
 git branch <new-branch> <parent-branch>
 ```
 
-adding extra stuff
+adding extra stuff, adding extra 
 
 *Branches in Git are not parent-child linked **after creation***
 
