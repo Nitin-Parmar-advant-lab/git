@@ -14,27 +14,6 @@ git config user.name "my-email"
 git config user.email "my-email"
 ```
 
-## Branch
-make main branch default for all repositories
-```
-git config --global init.defaultBranch <name>
-```
-for making branch
-```
-git branch <branch-name>
-```
-for changing branch 
-```
-git checkout <branch-name>
-```
-for delete branch 
-```
-git branch -d <branch-name>
-```
-Remove old branch from GitHub
-```
-git push origin -d <branch-name>
-```
 ## Add and Commit
 ### first git add then commit
 
@@ -109,3 +88,9 @@ git push -u origin main
 ```
 git push origin master
 ```
+
+
+---
+## Extras
+### :...skipping...
+Mean: "There are a lot of commits here, I’m not printing them all", because of Branches diverged and merged many times or history is very long 
