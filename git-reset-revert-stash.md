@@ -59,3 +59,21 @@ Temporarily stores your uncommitted changes so you can switch branches or do oth
 ```
 git stash
 ```
+it will remove all the uncommitted changes and store temporally 
+
+for getting those uncommitted changes back:
+first get stash id
+```
+git stash list
+```
+then
+```
+git stash apply "<stash-id>"
+```
+don't forget to put " ", because if not then powershell understand stash id as a special characters not git command 
+
+and for clearing all stash logs 
+```
+got stash clear 
+```
+or can use `git stash pop` for Restore + remove
