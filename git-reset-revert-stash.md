@@ -31,6 +31,19 @@ It delete/remove specific commit from history permanently
 git reset --hard <commit-hash>
 ```
 
+### git reflog
+Even after reset --hard, Git keeps history in reflog
+this command will give list of logs
+```
+git reflog
+```
+use this for restore prvious state:
+```
+git reset --hard "HEAD@{1}"
+or
+git reset --hard <old-hash>
+```
+
 ## Git revert 
 push code and want back previous commit(undo commit), but also does not want to delete/remove log history 
 
